@@ -7,8 +7,6 @@ import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 
 import M1 from '../images/m1.jpeg';
-import M2 from '../images/m2.jpg';
-import M3 from '../images/m3.jpg';
 import M4 from '../images/m4.png';
 
 const Fun = () => {

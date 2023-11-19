@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BanknotesIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
+import {  Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import { Link, useLocation } from 'react-router-dom';
 import logoImage from '../images/mnit.png';
 

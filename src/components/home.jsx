@@ -3,7 +3,7 @@ import Fun from './fun'
 import FAQSection from './faq'
 import logoImage1 from '../images/mnit.png';
 import logoImage2 from '../images/ram.png';
-import logoboy from '../images/okra.jpeg'
+
 import { useState, useEffect } from 'react';
 
 const Header = () => {
