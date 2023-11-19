@@ -95,11 +95,11 @@ const Counter = () => {
       
       <div className="text-center mt-8">
   <h2 className="text-3xl md:text-4xl font-black text-[#750014] mb-4">The Conference Begins In:</h2>
-  <p className="text- md:text-4xl font-black text-gray-900">
-    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-4 py-2 md:m-2 inline-block animate__animated animate__fadeInUp">{days}</span> Days : 
-    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-4 py-2 md:m-2 inline-block animate__animated animate__fadeInUp">{hours}</span> Hours : 
-    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-4 py-2 md:m-2 inline-block animate__animated animate__fadeInUp">{minutes}</span> Minutes : 
-    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-4 py-2 md:m-2 inline-block animate__animated animate__fadeInUp">{seconds}</span> Seconds
+  <p className="text-xl md:text-4xl font-black text-gray-900">
+    <span className="countdown-item bg-[#750014] text-white border-1 md:border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{days}</span> Days : 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{hours}</span> Hours : 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{minutes}</span> Minutes : 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{seconds}</span> Seconds
   </p>
 </div>
 
