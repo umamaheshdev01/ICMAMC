@@ -97,10 +97,10 @@ const Counter = () => {
   <h2 className="text-3xl md:text-4xl font-black text-[#750014] mb-4">The Conference Begins In:</h2>
   <p className="text-xl md:text-4xl font-black text-gray-900">
     
-    <span className="countdown-item bg-black text-white border-2 border-[#750014] rounded px-2">{days}</span> Days : 
-    <span className="countdown-item bg-black text-white border-2 border-[#750014] rounded px-2">{hours}</span> Hours : 
-    <span className="countdown-item bg-black text-white border-2 border-[#750014] rounded px-2">{minutes}</span> Minutes : 
-    <span className="countdown-item bg-black text-white border-2 border-[#750014] rounded px-2">{seconds}</span> Seconds
+    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-2">{days}</span> Days : 
+    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-2">{hours}</span> Hours : 
+    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-2">{minutes}</span> Minutes : 
+    <span className="countdown-item bg-[#750014] text-white border-2 border-[#750014] rounded px-2">{seconds}</span> Seconds
   </p>
 </div>
 
