@@ -109,7 +109,7 @@ const Counter = () => {
     
     <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-2 md:px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{seconds}</span> 
     <span className="hidden md:inline">Seconds</span>
-    <span className="inline md:hidden">Sec :</span>
+    <span className="inline md:hidden">Sec </span>
   </p>
 </div>
 
