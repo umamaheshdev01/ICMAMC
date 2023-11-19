@@ -95,19 +95,19 @@ const Counter = () => {
     <div className="text-center mt-8">
   <h2 className="text-3xl md:text-4xl font-black text-[#750014] mb-4">The Conference Begins In:</h2>
   <p className="text-xl md:text-4xl font-black text-gray-900">
-    <span className="countdown-item bg-[#750014] text-white border-1 md:border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{days}</span> 
+    <span className="countdown-item bg-[#750014] text-white border-1 md:border-[#750014] rounded px-2 md:px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{days}</span> 
     <span className="hidden md:inline">Days :</span>
     <span className="inline md:hidden">D :</span>
     
-    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{hours}</span> 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-2 md:px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{hours}</span> 
     <span className="hidden md:inline">Hours :</span>
     <span className="inline md:hidden">Hrs :</span>
     
-    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{minutes}</span> 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-2 md:px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{minutes}</span> 
     <span className="hidden md:inline">Minutes :</span>
     <span className="inline md:hidden">Min :</span>
     
-    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{seconds}</span> 
+    <span className="countdown-item bg-[#750014] text-white border-1 border-[#750014] rounded px-2 md:px-4 py-2 m-2 inline-block animate__animated animate__fadeInUp">{seconds}</span> 
     <span className="hidden md:inline">Seconds</span>
     <span className="inline md:hidden">Sec :</span>
   </p>
