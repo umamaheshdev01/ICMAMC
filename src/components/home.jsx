@@ -52,7 +52,7 @@ const Header = () => {
 
 const Counter = () => {
   // Set the target date (March 31, 2024)
-  const targetDate = new Date('March 31, 2024 00:00:00').getTime();
+  const targetDate = new Date('March 1, 2024 00:00:00').getTime();
 
   // Set the initial state for the countdown values
   const [days, setDays] = useState(0);
