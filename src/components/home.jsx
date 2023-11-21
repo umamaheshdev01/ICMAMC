@@ -30,8 +30,8 @@ const Header = () => {
     <div className="flex items-center justify-center h-[70vh] md:h-[80vh] bg-[#750014]">
     <div className="text-center text-white">
       <div className="flex justify-center  md:gap-10 mb-4">
-        <img src={logoImage1} alt="Conference Logo 1" className="h-[7rem] md:h-[13rem] max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-2" />
-        <img src={logoImage2} alt="Conference Logo 2" className="h-[7rem] md:h-[13rem] max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-2" />
+        <img src={logoImage1} loading='lazy' alt="Conference Logo 1" className="h-[7rem] md:h-[13rem] max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-2" />
+        <img src={logoImage2} loading='lazy' alt="Conference Logo 2" className="h-[7rem] md:h-[13rem] max-w-full md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-2" />
     
       </div>
       <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold mb-2" style={{ color: randomColor }}>ICMAMC-2024</h1>

@@ -33,6 +33,7 @@ const Fun = () => {
         {[  M4 ,M1].map((image, index) => (
           <SwiperSlide key={index}>
             <img
+               loading='lazy'
               src={image}
               alt={`Slide ${index + 1}`}
               style={{ objectFit: 'cover', width: '100%', height: '100%' }}
